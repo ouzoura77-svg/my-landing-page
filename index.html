@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحميل التطبيق / الحصول على المكافأة</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #0f172a;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            background-color: #1e293b;
+            border-radius: 16px;
+            padding: 30px 20px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            border: 1px solid #334155;
+        }
+        .icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            border-radius: 20px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #f8fafc;
+        }
+        p {
+            font-size: 14px;
+            color: #94a3b8;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+        .btn-unlock {
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 12px;
+            cursor: pointer;
+            width: 100%;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 14px rgba(34, 197, 94, 0.4);
+        }
+        .btn-unlock:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(34, 197, 94, 0.6);
+        }
+        .footer-text {
+            margin-top: 15px;
+            font-size: 12px;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="icon">🎁</div>
+    <h1>احصل على المحتوى الآن</h1>
+    <p>لتحميل الملف أو الحصول على المكافأة، يرجى الضغط على الزر أدناه وإكمال تحقق بسيط لحماية الرابط.</p>
+    
+    <!-- ضع رابط Content Locker الخاص بك في OGAds مكان الخانة المخصصة -->
+    <button class="btn-unlock" onclick="window.location.href='ضع_رابط_OGADS_هنا'">
+        اضغط هنا للتحميل
+    </button>
+
+    <div class="footer-text">آمن ومعتمد 100% لمستخدمي Android و iOS</div>
+</div>
+
+</body>
+</html>
